@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+.top_container--flex {
+  display: flex;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: right;
+  background: lightblue;
+  padding: .5em;
+  margin: .5em;
+  border: none;
+  width: 8em;
+  height: 8em;
+}

@@ -16,8 +16,14 @@
 
 .top_container--flex {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center; 
 }
 
+.form {
+  display: inline-flex;
+}
 .inline {
   display: inline-flex;
 }
@@ -25,8 +31,7 @@
 .button {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  text-align: right;
-  background: lightblue;
+  justify-content: center;
   padding: .5em;
   margin: .5em;
   border: none;

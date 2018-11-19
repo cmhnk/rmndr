@@ -1,3 +1,4 @@
 div.top-container--flex
   - contacts.each do |contact|
-    button.inline.button = contact.first_name
+    - i = rand(colors.size)
+    = button_to contact.first_name, contact_path(contact.id), {method: :get, class: 'inline button', style: "background: #{colors[i]}"}

@@ -18,4 +18,9 @@ class ContactsController < ApplicationController
   end
   helper_method :contacts
 
+  def colors
+    ['tomato', 'darkred', 'gold', 'seagreen', 'darkslateblue', 'mediumorchid', 'thistle', 'slateblue', 'dodgerblue', 'powderblue','teal', 'olivedrab', 'moccasin', 'orange']
+  end
+  helper_method :colors
+
 end
